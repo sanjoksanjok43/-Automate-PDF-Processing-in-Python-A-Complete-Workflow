@@ -10,7 +10,7 @@ import aspose.pdf as apdf
 from dotenv import dotenv_values
 
 
-MAX_PDF_BYTES = 1_000_000_000  # 1 GB; reject larger inputs before loading them.
+MAX_PDF_BYTES = 3_000_000_000  # 3 GB; reject larger inputs before loading them.
 REPORT_COLUMNS = ("input_file", "output_file", "status", "processing_seconds", "error")
 
 
